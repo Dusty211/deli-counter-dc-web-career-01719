@@ -4,9 +4,10 @@ def line(katz_deli)
   if katz_deli == []
     puts "The line is currently empty."
   else 
-    puts "The line is currently: "
+    line_string += "The line is currently: "
     katz_deli.each_with_index do |customer, index|
-    puts "#{index + 1}. #{customer}"
+    line_string += "#{index + 1}. #{customer}"
+    puts line_string
   end
   end
 end
