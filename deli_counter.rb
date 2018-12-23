@@ -1,4 +1,4 @@
-#katz_deli = Array.new
+katz_deli = Array.new
 
 def line(katz_deli)
   if katz_deli == []
@@ -9,5 +9,5 @@ def line(katz_deli)
   end
 end
 
-#line(katz_deli)
+line(katz_deli)
 
