@@ -1,4 +1,4 @@
-katz_deli = []
+katz_deli = %w[Billy Jimmy Tom Mikey]
 
 def line(katz_deli)
   if katz_deli == []
