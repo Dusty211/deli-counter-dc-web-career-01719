@@ -8,8 +8,8 @@ def line(katz_deli)
     line_string += "The line is currently: "
     katz_deli.each_with_index do |customer, index|
     line_string += "#{index + 1}. #{customer}"
-    puts line_string
   end
+  puts line_string  
   end
 end
 
