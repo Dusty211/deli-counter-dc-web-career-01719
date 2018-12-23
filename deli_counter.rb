@@ -1,4 +1,4 @@
-katz_deli = Array.new
+#katz_deli = Array.new
 
 def line(katz_deli)
   if katz_deli == []
