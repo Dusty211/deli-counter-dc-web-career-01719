@@ -6,9 +6,7 @@ def line(katz_deli)
   else
     line_string = String.new
     line_string += "The line is currently:"
-    katz_deli.each_with_index do |customer, index|
-    line_string += " #{index + 1}. #{customer}"
-  end
+    katz_deli.each_with_index {|customer, index| line_string += " #{index + 1}. #{customer}"}
   puts line_string  
   end
 end
